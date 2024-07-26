@@ -1,0 +1,50 @@
+header {
+        height: 100px;
+        background-color: #19242f;
+        color: #ff4043;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .sidebar {
+        height: 100vh;
+        background-color: #1c2a39;
+        color: #ff4043;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .main-content {
+        background-color: #f1f1f1;
+        color: #000;
+        padding: 15px;
+    }
+
+    footer {
+        height: 50px;
+        background-color: #19242f;
+        color: #ff4043;
+        text-align: center;
+        padding: 15px 0;
+        height: 50px;
+        width: 100%;
+        float: left;
+    }
+
+    .sidebar {
+        height: calc(100vh-100px-50px);
+        min-height: calc(100vh-100px-50px);
+        box-sizing: border-box;
+        float: left;
+        width: 25%;
+        padding: 15px;
+        }
+
+        .main-content {
+            height: calc(100vh-100px-50px);
+        box-sizing: border-box;
+        float: left;
+        width: 75%;
+        padding: 15px;
+        }
+        
